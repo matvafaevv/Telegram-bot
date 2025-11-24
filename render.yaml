@@ -1,0 +1,7 @@
+services:
+  - type: worker
+    name: my-telegram-bot
+    env: python
+    branch: main
+    buildCommand: ""
+    startCommand: python bot.py
